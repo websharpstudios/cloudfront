@@ -7,10 +7,6 @@ Cloud Front is a no-code e-commerce template engine that streamlines and acceler
 
 For comprehensive documentation and step-by-step tutorials, please refer to the Cloud Front Developer Guide available at [fronts.cloud/docs](https://fronts.cloud/docs). This valuable resource will guide you through the platform's features, functionalities, and recommended practices. Stay up to date with the latest features and releases by following our blog at [fronts.cloud/blog](https://fronts.cloud/blog).
 
-## Premium Support
-
-We offer premium support packages at [fronts.cloud](https://fronts.cloud/), which includes the customized themes for by bu. This template provides advanced samples, additional features, and modules to enhance your development experience. Gain access to premium support and take advantage of the StartSharp template by visiting our website for more information.
-
 ## Database Support
 
 You'll want to consider the supported back-end infrastructure if deploying on premis and out-of-the-box payment processor compatibility for each platform.
@@ -27,6 +23,10 @@ You'll want to consider the supported back-end infrastructure if deploying on pr
 ## Payment processors and cloud providers
 
 These templates simply blow the PHP e-commerce platforms out of the water. There's no comparisons. But if you want to waste your time looking at what [lame e-commerce sites bitnami has](https://bitnami.com/stacks/e-commerce) you can download VMware/Docker to run any of them. I can't understand why anyone would want to learn PHP when .NET Open Source has so many more options and availability. 
+
+## Premium Support
+
+We offer premium support packages at [fronts.cloud](https://fronts.cloud/), which includes the customized themes for by bu. This template provides advanced samples, additional features, and modules to enhance your development experience. Gain access to premium support and take advantage of the StartSharp template by visiting our website for more information.
 
 | E-Commerce Platform                                     | Payment Processors                           | Cloud Providers              |
 |---------------------------------------------------------|----------------------------------------------|------------------------------|
