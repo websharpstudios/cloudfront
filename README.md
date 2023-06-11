@@ -20,14 +20,12 @@ You'll want to consider the supported back-end infrastructure if deploying on pr
 | [5. Composite](https://github.com/Orckestra/C1-CMS-Foundation)      | SqlServer, MySql, PostgresSQL     | Yes    |
 | [6. Umbraco](https://github.com/umbraco/Umbraco-CMS)                | SqlServer, MySql, SqlCE, MongoDb  | Yes    |
 
-## Payment processors and cloud providers
-
-These templates simply blow the PHP e-commerce platforms out of the water. There's no comparisons. But if you want to waste your time looking at what [lame e-commerce sites bitnami has](https://bitnami.com/stacks/e-commerce) you can download VMware/Docker to run any of them. I can't understand why anyone would want to learn PHP when .NET Open Source has so many more options and availability. 
-
 ## Premium Support
 
 We offer premium support packages at [fronts.cloud](https://fronts.cloud/), which includes the customized themes for by bu. This template provides advanced samples, additional features, and modules to enhance your development experience. Gain access to premium support and take advantage of the StartSharp template by visiting our website for more information.
 
+## Payment processors and cloud providers
+S
 | E-Commerce Platform                                     | Payment Processors                           | Cloud Providers              |
 |---------------------------------------------------------|----------------------------------------------|------------------------------|
 | [1. Nop](https://www.nopcommerce.com/docs)              | PayPal, Stripe, Authorize.Net, Braintree     | AWS, Azure, Google Cloud     |
