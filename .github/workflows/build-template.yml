@@ -4,6 +4,8 @@
 name: build-template
 
 on: [push, workflow_dispatch]
+env:
+  GITHUB_WORKSPACE: ${{ github.workspace }} 
 
 jobs:
   build:
@@ -11,14 +13,20 @@ jobs:
     runs-on: windows-2019
     strategy:
       matrix:
-        dotnet-version: [ '4.7.x', '6.0.x' ]
+        dotnet-version: [ '6.0.x' ]
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@master
       - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@master
         with:
           dotnet-version: ${{ matrix.dotnet-version }}
+      - name: Change working directory
+        run: cd $env:GITHUB_WORKSPACE
+        
+      - name: Make build directory
+        run: mkdir -p $env:GITHUB_WORKSPACE/${{ matrix.dotnet-version }}
+         - cd ${{ matrix.dotnet-version }} 
       - name: Install dependencies
         run: dotnet restore
       - name: Build
