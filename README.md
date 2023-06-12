@@ -52,7 +52,8 @@ Have an E-commerce platform you want to add? Fork this repository and :
   - Add the template files as a submodule under the [templates](./templates) directory
   - Add the unit tests as a a submodule under the [test](./test) directory
   - Update the VSIX project addng the UI to configure the new platform options
-Then submit a pull request into the next version branch
+
+Then submit a pull request into the next version branch 
 
 ## License
 
