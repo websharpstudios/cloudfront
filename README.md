@@ -1,11 +1,21 @@
 
-# Push button E-Commerce for .NET Core and TypeScript
+# CloudFront E-Commerce for .NET Core
 
 Cloud Fr0nt is a zero code e-commerce template engine streamline and accelerate the development of data-centric e-commerce applications with a service-based architecture. Whether you're building ASP.NET Core or TypeScript applications, Cloud Front aims to simplify the development process and reduce maintenance costs by eliminating boilerplate code and adhering to best software design practices.
 
 ## Documentation and Tutorials
 
 For comprehensive documentation and step-by-step tutorials, please refer to the Cloud Front Developer Guide available at [fronts.cloud/docs](https://fronts.cloud/docs). This valuable resource will guide you through the platform's features, functionalities, and recommended practices. Stay up to date with the latest features and releases by following our blog at [fronts.cloud/blog](https://fronts.cloud/blog).
+
+## Demos  
+
+You can run the [yarp reverse proxy](https://github.com/microsoft/reverse-proxy) and test each of the six docker files individually, or check out the live demos on Cloudfront
+  1. CloudFront for Nop Commerce
+  2. CloudFront for Virto Commerce
+  3. CloudFront for SmartStore
+  4. CloudFront for Grand2
+  5. CloudFront for Composite
+  6. CloudFront for Umbraco
 
 ## Premium Support
 
@@ -34,6 +44,15 @@ You'll want to consider the supported back-end infrastructure if deploying on pr
 | [4. Grand](https://grandnode.com/docs)                  | PayPal, Stripe, 2Checkout, Payza             | AWS, Azure, Google Cloud     |
 | [5. Composite](https://docs.composite.net)      | Authorize.Net, PayPal, Klarna, Skrill        | AWS, Azure, Google Cloud     |
 | [6. Umbraco](https://umbraco.com/documentation/)                | Adyen, Stripe, PayPal, Klarna                | AWS, Azure, Google Cloud     |
+
+## Contributing
+
+Have an E-commerce platform you want to add? Fork this repository and : 
+  - Add the repository for the E-Commerce as a submodule under the [build](./build) directory. 
+  - Add the template files as a submodule under the [templates](./templates) directory
+  - Add the unit tests as a a submodule under the [test](./test) directory
+  - Update the VSIX project addng the UI to configure the new platform options
+Then submit a pull request into the next version branch
 
 ## License
 
