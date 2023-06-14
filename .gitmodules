@@ -15,3 +15,11 @@
 	url = https://github.com/websharpstudios/ecommerce-03.git
 	branch = master
 
+[submodule "NopPluginTemplate"]
+	path = templates/store-01/Nopcommerce-Plugin-Template
+	url = https://github.com/kazirahiv/Nopcommerce-Plugin-Template.git
+	branch = main
+[submodule "NopAppTemplate"]
+	path = templates/store-01/NopCommerce
+	url = https://github.com/nopSolutions/NopCommerce.git
+	branch = develop
