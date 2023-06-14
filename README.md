@@ -19,7 +19,7 @@ You can run the [yarp reverse proxy](https://github.com/microsoft/reverse-proxy)
 
 ## Premium Support
 
-We offer premium support packages at [fronts.cloud](https://fronts.cloud/), which includes the customized themes for by bu. This template provides advanced samples, additional features, and modules to enhance your development experience. Gain access to premium support and take advantage of the StartSharp template by visiting our website for more information.
+We offer premium support packages at [fronts.cloud](https://fronts.cloud/), which includes the customized themes for by bu. This template provides advanced samples, additional features, and modules to enhance your development experience. Gain access to premium support and take advantage of the CloudFront templates by visiting our website for more information.
 
 ## Database Support
 
