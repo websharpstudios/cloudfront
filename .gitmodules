@@ -1,20 +1,3 @@
-[submodule "templating"]
-	path = templating
-	url = https://github.com/websharpstudios/templating
-	branch = main
-[submodule "ecommerce-02"]
-	path = ecommerce-02
-	url = https://github.com/websharpstudios/ecommerce-02.git
-	branch = dev
-[submodule "ecommerce-01"]
-	path = ecommerce-01
-	url = https://github.com/websharpstudios/ecommerce-01.git
-	branch = develop
-[submodule "ecommerce-03"]
-	path = ecommerce-03
-	url = https://github.com/websharpstudios/ecommerce-03.git
-	branch = master
-
 [submodule "NopPluginTemplate"]
 	path = templates/store-01/Nopcommerce-Plugin-Template
 	url = https://github.com/kazirahiv/Nopcommerce-Plugin-Template.git
