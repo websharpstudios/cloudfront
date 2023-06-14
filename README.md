@@ -1,7 +1,7 @@
 
 # CloudFront E-Commerce for .NET Core
 
-Cloud Fr0nt is a zero code e-commerce template engine streamline and accelerate the development of data-centric e-commerce applications with a service-based architecture. Whether you're building ASP.NET Core or TypeScript applications, Cloud Front aims to simplify the development process and reduce maintenance costs by eliminating boilerplate code and adhering to best software design practices.
+Cloud Front is a push button e-commerce template engine streamlining and accelerating the development of data-centric e-commerce applications with a service-based architecture. Whether you're building SQL Server or MySql applications, Cloud Front aims to simplify the development process and reduce maintenance costs by eliminating boilerplate code and adhering to best software design practices.
 
 ## Documentation and Tutorials
 
