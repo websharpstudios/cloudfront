@@ -14,3 +14,12 @@
 	path = templates/store-03/Smartstore
 	url = https://github.com/smartstore/Smartstore
 	branch = main
+[submodule "templates/store-04/GrandNode"]
+	path = templates/store-04/GrandNode
+	url = https://github.com/grandnode/grandnode2
+[submodule "templates/store-05/Composite"]
+	path = templates/store-05/Composite
+	url = https://github.com/Orckestra/C1-CMS-Foundation
+[submodule "templates/store-06/Umbraco"]
+	path = templates/store-06/Umbraco
+	url = https://github.com/umbraco/Umbraco-CMS
