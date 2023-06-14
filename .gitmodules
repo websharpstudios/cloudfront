@@ -27,3 +27,7 @@
 	path = templates/store-02/VcPlatform
 	url = https://github.com/VirtoCommerce/vc-platform
 	branch = dev
+[submodule "SmartStoreAppTemplate"]
+	path = templates/store-03/Smartstore
+	url = https://github.com/smartstore/Smartstore
+	branch = main
