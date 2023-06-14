@@ -23,3 +23,7 @@
 	path = templates/store-01/NopCommerce
 	url = https://github.com/nopSolutions/NopCommerce.git
 	branch = develop
+[submodule "Virto Commerce"]
+	path = templates/store-02/VcPlatform
+	url = https://github.com/VirtoCommerce/vc-platform
+	branch = dev
