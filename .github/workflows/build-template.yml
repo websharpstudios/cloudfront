@@ -13,7 +13,7 @@ jobs:
     runs-on: windows-2019
     strategy:
       matrix:
-        dotnet-version: [ '6.0.x' ]
+        dotnet-version: [ '6.0.x','7.0','8.0' ]
 
     steps:
       - uses: actions/checkout@master
@@ -21,12 +21,15 @@ jobs:
         uses: actions/setup-dotnet@master
         with:
           dotnet-version: ${{ matrix.dotnet-version }}
-      - name: Change working directory
-        run: cd $env:GITHUB_WORKSPACE
-        
-      - name: Make build directory
-        run: mkdir -p $env:GITHUB_WORKSPACE/${{ matrix.dotnet-version }}
-         - cd ${{ matrix.dotnet-version }} 
+      - name: Create build direcotry
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module Universal 
+          Get-Module Universal -ListAvailable
+          New-Item -Path ${{ env.GITHUB_WORKSPACE }}\build -ItemType Directory
+          New-Item -Path ${{ env.GITHUB_WORKSPACE }}\build\${{ matrix.dotnet-version }} -ItemType Directory
+          Copy-Item -Path ${{ env.GITHUB_WORKSPACE }}\templates\* -Destination ${{ env.GITHUB_WORKSPACE }}\build\${{ matrix.dotnet-version }} -Recurse
+        shell: pwsh
       - name: Install dependencies
         run: dotnet restore
       - name: Build
