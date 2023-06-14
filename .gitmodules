@@ -23,3 +23,6 @@
 [submodule "templates/store-06/Umbraco"]
 	path = templates/store-06/Umbraco
 	url = https://github.com/umbraco/Umbraco-CMS
+[submodule "proxy"]
+	path = proxy
+	url = https://github.com/microsoft/reverse-proxy
